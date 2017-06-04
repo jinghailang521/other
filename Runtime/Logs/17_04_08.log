@@ -1,0 +1,25 @@
+[ 2017-04-08T14:18:46+08:00 ] 127.0.0.1 /index.php?s=/admin/think/lists/model/action.html
+ERR: 1054:Champ '' inconnu dans field list
+ [ SQL语句 ] : SELECT ``,`id` FROM `onethink_action` ORDER BY id DESC LIMIT 0,10  
+
+[ 2017-04-08T14:18:49+08:00 ] 127.0.0.1 /index.php?s=/admin/think/lists/model/action/p/2.html
+ERR: 1054:Champ '' inconnu dans field list
+ [ SQL语句 ] : SELECT ``,`id` FROM `onethink_action` ORDER BY id DESC LIMIT 10,10  
+
+[ 2017-04-08T14:18:50+08:00 ] 127.0.0.1 /index.php?s=/admin/think/lists/model/action/p/1.html
+ERR: 1054:Champ '' inconnu dans field list
+ [ SQL语句 ] : SELECT ``,`id` FROM `onethink_action` ORDER BY id DESC LIMIT 0,10  
+
+[ 2017-04-08T14:19:48+08:00 ] 127.0.0.1 /index.php?s=/admin/think/lists/model/action.html
+ERR: 1054:Champ '' inconnu dans field list
+ [ SQL语句 ] : SELECT ``,`id` FROM `onethink_action` ORDER BY id DESC LIMIT 0,10  
+
+[ 2017-04-08T14:22:46+08:00 ] 127.0.0.1 /index.php?s=/admin/think/lists/model/action.html
+ERR: 1054:Champ '' inconnu dans field list
+ [ SQL语句 ] : SELECT ``,`id` FROM `onethink_action` ORDER BY id DESC LIMIT 0,10  
+
+[ 2017-04-08T14:24:07+08:00 ] 127.0.0.1 /index.php?s=/admin/attribute/update.html
+ERR: 1060:Nom du champ 'id' déjà utilisé
+ [ SQL语句 ] : 				ALTER TABLE `onethink_action`
+ADD COLUMN `id`  int(10) UNSIGNED NOT NULL  COMMENT 'id';
+
